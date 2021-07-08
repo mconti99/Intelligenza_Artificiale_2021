@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/itama/ontologies/2021/3/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/itama/ontologies/2021/3/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/itama/ontologies/2021/3/untitled-ontology-5"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#A_piatto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calzone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capricciosa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cicoli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ciliegino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cipolla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Datterino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fiordilatte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Giallo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfoNutrizionali"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Latticini"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Margherita"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mozzarella"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Panificati"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pomodoro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SanMarzano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verdure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Ingrediente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IngredienteCapricciosa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IngredienteMargherita"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#MacroNutrienti"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#staSu"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#staSuCapricciosa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#staSuMargherita"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Colore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PizzaAnanas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PizzaDiIeriSera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PizzaMangiataGiovedi22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PizzaMangiataIeri"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#A_piatto"/>
+        <Class IRI="#Pizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calzone"/>
+        <Class IRI="#Pizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capricciosa"/>
+        <Class IRI="#A_piatto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cicoli"/>
+        <Class IRI="#Calzone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciliegino"/>
+        <Class IRI="#Pomodoro"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cipolla"/>
+        <Class IRI="#Verdure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Datterino"/>
+        <Class IRI="#Pomodoro"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fiordilatte"/>
+        <Class IRI="#Latticini"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Giallo"/>
+        <Class IRI="#Pomodoro"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Margherita"/>
+        <Class IRI="#A_piatto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mozzarella"/>
+        <Class IRI="#Latticini"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pizza"/>
+        <Class IRI="#Panificati"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pomodoro"/>
+        <Class IRI="#Verdure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SanMarzano"/>
+        <Class IRI="#Pomodoro"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verace"/>
+        <Class IRI="#SanMarzano"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#A_piatto"/>
+        <Class IRI="#Calzone"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ciliegino"/>
+        <Class IRI="#Datterino"/>
+        <Class IRI="#Giallo"/>
+        <Class IRI="#SanMarzano"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Margherita"/>
+        <NamedIndividual IRI="#PizzaDiIeriSera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cicoli"/>
+        <NamedIndividual IRI="#PizzaMangiataGiovedi22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Capricciosa"/>
+        <NamedIndividual IRI="#PizzaMangiataIeri"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#IngredienteCapricciosa"/>
+        <ObjectProperty IRI="#Ingrediente"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#IngredienteMargherita"/>
+        <ObjectProperty IRI="#Ingrediente"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#staSuCapricciosa"/>
+        <ObjectProperty IRI="#staSu"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#staSuMargherita"/>
+        <ObjectProperty IRI="#staSu"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Ingrediente"/>
+        <ObjectProperty IRI="#staSu"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#IngredienteCapricciosa"/>
+        <ObjectProperty IRI="#staSuCapricciosa"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#IngredienteMargherita"/>
+        <ObjectProperty IRI="#staSuMargherita"/>
+    </InverseObjectProperties>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#staSu"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#staSu"/>
+    </TransitiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#staSu"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Ingrediente"/>
+        <Class IRI="#Pizza"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IngredienteCapricciosa"/>
+        <Class IRI="#Capricciosa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IngredienteMargherita"/>
+        <Class IRI="#Margherita"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#MacroNutrienti"/>
+        <Class IRI="#Latticini"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#MacroNutrienti"/>
+        <Class IRI="#Panificati"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#MacroNutrienti"/>
+        <Class IRI="#Verdure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#staSu"/>
+        <Class IRI="#Latticini"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#staSu"/>
+        <Class IRI="#Verdure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#staSuCapricciosa"/>
+        <Class IRI="#Fiordilatte"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#staSuCapricciosa"/>
+        <Class IRI="#Pomodoro"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#staSuMargherita"/>
+        <Class IRI="#Mozzarella"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#staSuMargherita"/>
+        <Class IRI="#Pomodoro"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Ingrediente"/>
+        <Class IRI="#Latticini"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Ingrediente"/>
+        <Class IRI="#Verdure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IngredienteCapricciosa"/>
+        <Class IRI="#Fiordilatte"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IngredienteCapricciosa"/>
+        <Class IRI="#Pomodoro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IngredienteMargherita"/>
+        <Class IRI="#Mozzarella"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IngredienteMargherita"/>
+        <Class IRI="#Pomodoro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#MacroNutrienti"/>
+        <Class IRI="#InfoNutrizionali"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#staSu"/>
+        <Class IRI="#Pizza"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#staSuCapricciosa"/>
+        <Class IRI="#Capricciosa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#staSuMargherita"/>
+        <Class IRI="#Margherita"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Colore"/>
+        <Class IRI="#Verdure"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Colore"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Colore</IRI>
+        <Literal>DATA property che associa ad un concetto il suo valore, valido solo per le verdure(non mi interessa la carne o i panificati di che colore sono)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ingrediente</IRI>
+        <Literal>questa relazione stabilisce se una data pizza ha certi ingedienti</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PizzaMangiataGiovedi22</IRI>
+        <Literal>Ricordo della pizza mangiata</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

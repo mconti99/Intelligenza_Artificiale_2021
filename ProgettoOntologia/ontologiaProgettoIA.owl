@@ -1,0 +1,1421 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/itama/ontologies/2021/4/ontologia"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/itama/ontologies/2021/4/ontologia">
+    <Prefix name="" IRI="http://www.semanticweb.org/itama/ontologies/2021/4/ontologia"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AmericanSocietyForTestingAndMaterials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GELLO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HL7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hepaxpert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IDE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MLMmanager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moni-ICU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RHEUMexpert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RheumaDiff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thyrexpert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toxopert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#actionSlot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arden2ByteCode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ardenSyntax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ardenSyntaxCompiler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ardenSyntaxHostInterface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ardenSyntaxIDE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ardenSyntaxRuleEngine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ardenSyntaxServer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ardenSyntaxServerProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ardenSyntaxWorkingGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#associatedInstitute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clinicalStandard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dataBasedEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#desease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#directCall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evokeSlot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fuzzyArdenSyntax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fuzzyArdenSyntaxIDE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fuzzyArdenSyntaxRuleEngine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#guidelineInterchangeFormat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#healthCareInstitute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hepatitis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hepatitisA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hepatitisB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hepatitisC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hospital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#knowledgeCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#libraryCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#logicSlot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maintenanceCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medicalLogicModule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medicalLogicModuleContent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#melanoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nosocomialInfection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#predictionMetastaticEvents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rheumatism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ruleEngine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#softwareProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thyroiditis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#timeBasedEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#toxoplasmosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#triggeringCause"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arden/J"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CompiledBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Compiles"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ComposedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ComposedByCDS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ComposedByMLM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Composes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ComposesCDS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ComposesMLM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DetectedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Detects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DevelopedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DevelopedCDS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DevelopedWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Develops"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DevelopsCDS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ExecutedWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ImplementedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Implements"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Invoke"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsMadeIndependent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#MakesIndependent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ManagedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Manages"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ResponsibleOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TriggeredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Triggers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UsedToDevelop"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UsedToExecute"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ArdenSyntaxVersion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MedicalLogicModuleVersion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Version"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AgfaHealthCare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AllScripts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BMIModuleCalculator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CARESystem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HepaxpertInWebInterface"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HorizonCareAlerts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#McKesson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MedexHealthCare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ORBISExperter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RegenstriefInstitute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Siemens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SoarianSystem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VeteransHealthAdministration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ViennaGeneral"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AmericanSocietyForTestingAndMaterials"/>
+        <Class IRI="#associatedInstitute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GELLO"/>
+        <Class IRI="#HL7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HL7"/>
+        <Class IRI="#clinicalStandard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hepaxpert"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hepaxpert"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Detects"/>
+            <Class IRI="#hepatitis"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IDE"/>
+        <Class IRI="#softwareProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MLMmanager"/>
+        <Class IRI="#softwareProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moni-ICU"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moni-ICU"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Detects"/>
+            <Class IRI="#nosocomialInfection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RHEUMexpert"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RHEUMexpert"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Detects"/>
+            <Class IRI="#rheumatism"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RheumaDiff"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RheumaDiff"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Detects"/>
+            <Class IRI="#rheumatism"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thyrexpert"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thyrexpert"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Detects"/>
+            <Class IRI="#thyroiditis"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toxopert"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toxopert"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Detects"/>
+            <Class IRI="#toxoplasmosis"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#actionSlot"/>
+        <Class IRI="#knowledgeCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arden2ByteCode"/>
+        <Class IRI="#ardenSyntaxCompiler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ardenSyntax"/>
+        <Class IRI="#HL7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ardenSyntaxCompiler"/>
+        <Class IRI="#softwareProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ardenSyntaxHostInterface"/>
+        <Class IRI="#softwareProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ardenSyntaxIDE"/>
+        <Class IRI="#IDE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ardenSyntaxRuleEngine"/>
+        <Class IRI="#ruleEngine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ardenSyntaxServer"/>
+        <Class IRI="#softwareProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ardenSyntaxServerProtocol"/>
+        <Class IRI="#softwareProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+        <Class IRI="#softwareProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dataBasedEvent"/>
+        <Class IRI="#triggeringCause"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#directCall"/>
+        <Class IRI="#triggeringCause"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evokeSlot"/>
+        <Class IRI="#knowledgeCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fuzzyArdenSyntax"/>
+        <Class IRI="#ardenSyntax"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fuzzyArdenSyntaxIDE"/>
+        <Class IRI="#IDE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fuzzyArdenSyntaxRuleEngine"/>
+        <Class IRI="#ruleEngine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#guidelineInterchangeFormat"/>
+        <Class IRI="#HL7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#healthCareInstitute"/>
+        <Class IRI="#associatedInstitute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hepatitis"/>
+        <Class IRI="#desease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hepatitisA"/>
+        <Class IRI="#hepatitis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hepatitisB"/>
+        <Class IRI="#hepatitis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hepatitisC"/>
+        <Class IRI="#hepatitis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hospital"/>
+        <Class IRI="#healthCareInstitute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#knowledgeCategory"/>
+        <Class IRI="#medicalLogicModuleContent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#libraryCategory"/>
+        <Class IRI="#medicalLogicModuleContent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#logicSlot"/>
+        <Class IRI="#knowledgeCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#maintenanceCategory"/>
+        <Class IRI="#medicalLogicModuleContent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medicalLogicModule"/>
+        <Class IRI="#softwareProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#melanoma"/>
+        <Class IRI="#desease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nosocomialInfection"/>
+        <Class IRI="#desease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#predictionMetastaticEvents"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#predictionMetastaticEvents"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Detects"/>
+            <Class IRI="#melanoma"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rheumatism"/>
+        <Class IRI="#desease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ruleEngine"/>
+        <Class IRI="#softwareProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thyroiditis"/>
+        <Class IRI="#desease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#timeBasedEvent"/>
+        <Class IRI="#triggeringCause"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#toxoplasmosis"/>
+        <Class IRI="#desease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arden/J"/>
+        <Class IRI="#ardenSyntaxCompiler"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#healthCareInstitute"/>
+        <NamedIndividual IRI="#AgfaHealthCare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#healthCareInstitute"/>
+        <NamedIndividual IRI="#AllScripts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#medicalLogicModule"/>
+        <NamedIndividual IRI="#BMIModuleCalculator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+        <NamedIndividual IRI="#CARESystem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hepaxpert"/>
+        <NamedIndividual IRI="#HepaxpertInWebInterface"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+        <NamedIndividual IRI="#HorizonCareAlerts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#healthCareInstitute"/>
+        <NamedIndividual IRI="#McKesson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#healthCareInstitute"/>
+        <NamedIndividual IRI="#MedexHealthCare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+        <NamedIndividual IRI="#ORBISExperter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#associatedInstitute"/>
+        <NamedIndividual IRI="#RegenstriefInstitute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#associatedInstitute"/>
+        <NamedIndividual IRI="#Siemens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+        <NamedIndividual IRI="#SoarianSystem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#healthCareInstitute"/>
+        <NamedIndividual IRI="#VeteransHealthAdministration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hospital"/>
+        <NamedIndividual IRI="#ViennaGeneral"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DevelopsCDS"/>
+        <NamedIndividual IRI="#AgfaHealthCare"/>
+        <NamedIndividual IRI="#ORBISExperter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DevelopedCDS"/>
+        <NamedIndividual IRI="#CARESystem"/>
+        <NamedIndividual IRI="#RegenstriefInstitute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DevelopedCDS"/>
+        <NamedIndividual IRI="#HorizonCareAlerts"/>
+        <NamedIndividual IRI="#McKesson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DevelopsCDS"/>
+        <NamedIndividual IRI="#McKesson"/>
+        <NamedIndividual IRI="#HorizonCareAlerts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DevelopedCDS"/>
+        <NamedIndividual IRI="#ORBISExperter"/>
+        <NamedIndividual IRI="#AgfaHealthCare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DevelopsCDS"/>
+        <NamedIndividual IRI="#RegenstriefInstitute"/>
+        <NamedIndividual IRI="#CARESystem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DevelopsCDS"/>
+        <NamedIndividual IRI="#Siemens"/>
+        <NamedIndividual IRI="#SoarianSystem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DevelopedCDS"/>
+        <NamedIndividual IRI="#SoarianSystem"/>
+        <NamedIndividual IRI="#Siemens"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ArdenSyntaxVersion"/>
+        <NamedIndividual IRI="#BMIModuleCalculator"/>
+        <Literal>2.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Language"/>
+        <NamedIndividual IRI="#BMIModuleCalculator"/>
+        <Literal>Arden Syntax</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#MedicalLogicModuleVersion"/>
+        <NamedIndividual IRI="#BMIModuleCalculator"/>
+        <Literal>1.00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#BMIModuleCalculator"/>
+        <Literal>Simple body mass index</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#VeteransHealthAdministration"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location"/>
+        <NamedIndividual IRI="#ViennaGeneral"/>
+        <Literal>Austria</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Compiles"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ComposedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ComposedByCDS"/>
+        <ObjectProperty IRI="#ComposedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ComposedByMLM"/>
+        <ObjectProperty IRI="#ComposedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Composes"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ComposesCDS"/>
+        <ObjectProperty IRI="#Composes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ComposesMLM"/>
+        <ObjectProperty IRI="#Composes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DevelopedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DevelopedCDS"/>
+        <ObjectProperty IRI="#DevelopedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DevelopedWith"/>
+        <ObjectProperty IRI="#DevelopedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Develops"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DevelopsCDS"/>
+        <ObjectProperty IRI="#Develops"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Invoke"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#IsMadeIndependent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#MakesIndependent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#UsedToDevelop"/>
+        <ObjectProperty IRI="#Develops"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#UsedToExecute"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#CompiledBy"/>
+        <ObjectProperty IRI="#Compiles"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ComposedBy"/>
+        <ObjectProperty IRI="#Composes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ComposedByCDS"/>
+        <ObjectProperty IRI="#ComposesCDS"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ComposedByMLM"/>
+        <ObjectProperty IRI="#ComposesMLM"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#DetectedBy"/>
+        <ObjectProperty IRI="#Detects"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#DevelopedBy"/>
+        <ObjectProperty IRI="#Develops"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#DevelopedCDS"/>
+        <ObjectProperty IRI="#DevelopsCDS"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#DevelopedWith"/>
+        <ObjectProperty IRI="#UsedToDevelop"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ExecutedWith"/>
+        <ObjectProperty IRI="#UsedToExecute"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ImplementedBy"/>
+        <ObjectProperty IRI="#Implements"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#IsMadeIndependent"/>
+        <ObjectProperty IRI="#MakesIndependent"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ManagedBy"/>
+        <ObjectProperty IRI="#Manages"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#TriggeredBy"/>
+        <ObjectProperty IRI="#Triggers"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#ComposesMLM"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Detects"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#ExecutedWith"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#IsMadeIndependent"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#MakesIndependent"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#ManagedBy"/>
+    </FunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#CompiledBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Compiles"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#ComposedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#ComposedByCDS"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#ComposedByMLM"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Composes"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#ComposesCDS"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#ComposesMLM"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#DetectedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Detects"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#DevelopedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#DevelopedCDS"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#DevelopedWith"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Develops"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#DevelopsCDS"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#ExecutedWith"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#ImplementedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Implements"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Invoke"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#IsMadeIndependent"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#MakesIndependent"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#ManagedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Manages"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#ResponsibleOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#TriggeredBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Triggers"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#UsedToDevelop"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#UsedToExecute"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#CompiledBy"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Compiles"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#ComposedBy"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#ComposedByCDS"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#ComposedByMLM"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Composes"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#ComposesCDS"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#ComposesMLM"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#DetectedBy"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Detects"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#DevelopedBy"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#DevelopedCDS"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#DevelopedWith"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Develops"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#DevelopsCDS"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#ExecutedWith"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#ImplementedBy"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Implements"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Invoke"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#IsMadeIndependent"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#MakesIndependent"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#ManagedBy"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Manages"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#ResponsibleOf"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#TriggeredBy"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Triggers"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#UsedToDevelop"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#UsedToExecute"/>
+    </TransitiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="#Invoke"/>
+    </ReflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#CompiledBy"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Compiles"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#ComposedBy"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#ComposedByCDS"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#ComposedByMLM"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Composes"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#ComposesCDS"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#ComposesMLM"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#DetectedBy"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Detects"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#DevelopedBy"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#DevelopedCDS"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#DevelopedWith"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Develops"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#DevelopsCDS"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#ExecutedWith"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#ImplementedBy"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Implements"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#IsMadeIndependent"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#MakesIndependent"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#ManagedBy"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Manages"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#ResponsibleOf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#TriggeredBy"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Triggers"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#UsedToDevelop"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#UsedToExecute"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CompiledBy"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Compiles"/>
+        <Class IRI="#ardenSyntaxCompiler"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ComposedByCDS"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ComposedByMLM"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ComposesCDS"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ComposesMLM"/>
+        <Class IRI="#medicalLogicModuleContent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DetectedBy"/>
+        <Class IRI="#desease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Detects"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DevelopedCDS"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DevelopedWith"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DevelopsCDS"/>
+        <Class IRI="#associatedInstitute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ExecutedWith"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ImplementedBy"/>
+        <Class IRI="#ardenSyntax"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Implements"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Invoke"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsMadeIndependent"/>
+        <Class IRI="#ruleEngine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#MakesIndependent"/>
+        <Class IRI="#ardenSyntaxServer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ManagedBy"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Manages"/>
+        <Class IRI="#MLMmanager"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ResponsibleOf"/>
+        <Class IRI="#ardenSyntaxWorkingGroup"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TriggeredBy"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Triggers"/>
+        <Class IRI="#triggeringCause"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#UsedToDevelop"/>
+        <Class IRI="#IDE"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#UsedToExecute"/>
+        <Class IRI="#ruleEngine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#triggeringCause"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CompiledBy"/>
+        <Class IRI="#ardenSyntaxCompiler"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Compiles"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ComposedByCDS"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ComposedByMLM"/>
+        <Class IRI="#medicalLogicModuleContent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ComposesCDS"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ComposesMLM"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DetectedBy"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Detects"/>
+        <Class IRI="#desease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DevelopedCDS"/>
+        <Class IRI="#associatedInstitute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DevelopedWith"/>
+        <Class IRI="#IDE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DevelopsCDS"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ExecutedWith"/>
+        <Class IRI="#ruleEngine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ImplementedBy"/>
+        <Class IRI="#clinicalDecisionSupportSystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Implements"/>
+        <Class IRI="#ardenSyntax"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Invoke"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsMadeIndependent"/>
+        <Class IRI="#ardenSyntaxServer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#MakesIndependent"/>
+        <Class IRI="#ruleEngine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ManagedBy"/>
+        <Class IRI="#MLMmanager"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Manages"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResponsibleOf"/>
+        <Class IRI="#ardenSyntax"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TriggeredBy"/>
+        <Class IRI="#triggeringCause"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Triggers"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsedToDevelop"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsedToExecute"/>
+        <Class IRI="#medicalLogicModule"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ArdenSyntaxVersion"/>
+        <DataProperty IRI="#Version"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#MedicalLogicModuleVersion"/>
+        <DataProperty IRI="#Version"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Version"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#ArdenSyntaxVersion"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#MedicalLogicModuleVersion"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Title"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ArdenSyntaxVersion"/>
+        <Class IRI="#ardenSyntax"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Language"/>
+        <Class IRI="#softwareProduct"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Location"/>
+        <Class IRI="#associatedInstitute"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#MedicalLogicModuleVersion"/>
+        <Class IRI="#medicalLogicModule"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Title"/>
+        <Class IRI="#medicalLogicModule"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ArdenSyntaxVersion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Language"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Location"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#MedicalLogicModuleVersion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Version"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Compiles</IRI>
+        <Literal>The Arden Syntax Compiler (software product) compiles MLMs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hepaxpert</IRI>
+        <Literal>The Hepaxpert system assists in the interpretation and plausibility
+checking of hepatitis A, B, and C serology test results</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Invoke</IRI>
+        <Literal>One MLM can invoke another MLM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Language</IRI>
+        <Literal>Software products are programmed in specific languages</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MakesIndependent</IRI>
+        <Literal>The Arden Syntax server was
+used to provide system/language independent access to the rule
+engine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ResponsibleOf</IRI>
+        <Literal>The Arden Syntax Working Group is currently responsible for the active development of the standard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Thyrexpert</IRI>
+        <Literal>Thyrexpert assists in the interpretation of thyroid hormone test
+results and offers automated reminders for quality assurance of
+thyroid diagnoses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Title</IRI>
+        <Literal>Every MLM has a title, that summarize his functionality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Toxopert</IRI>
+        <Literal>Toxopert assist in the interpretation of time sequences of toxoplasmosis serology test results. This application is also available in an enhanced version that is based on fuzzy logic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Triggers</IRI>
+        <Literal>The execution of an MLM can be triggered by specific triggering causes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ardenSyntax</IRI>
+        <Literal>Arden Syntax is a widely recognized standard for representing
+clinical and scientific knowledge in an executable format which
+can be used by such CDS systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ardenSyntaxCompiler</IRI>
+        <Literal>MLMs were compiled using the Arden Syntax compiler, which generates Java
+classes out of MLM code.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#medicalLogicModule</IRI>
+        <Literal>The code is organized in self-contained files called Medical Logic Modules
+(MLMs)</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
